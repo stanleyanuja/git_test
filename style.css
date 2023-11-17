@@ -1,0 +1,54 @@
+/* Universal Selector */
+* { 
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-align: center;
+}
+/* Type Selector */
+div{
+    color: black;
+}
+
+/* Class Selector */
+.alert-text{
+    color: red;
+}
+
+/* ID Selector */
+#cover{
+    background-color: aqua;
+    color: blue;
+}
+
+/* Group Selector giving commn style to different classes*/
+.test, .learn{
+    color: green;
+}
+
+/* Class Selector containing unique style properties */
+.test{
+    background-color: lavender;
+}
+
+/* Class Selector containing unique style properties */
+.learn{
+    background-color: azure;
+}
+
+
+.world.full{
+    color: midnightblue;
+}
+
+.world#ml{
+    color: cornflowerblue;
+}
+
+.exp .expr{
+    color: chocolate;
+}
+
+.exp{
+    background-color: antiquewhite;
+}
